@@ -16,7 +16,7 @@ RUN cd /opt/overops-event-generator \
 
 # Stage 2 - Build Agent
 
-FROM timveil/oo-docker-base:latest
+FROM timveil/oo-docker-base:alpine-musl
 
 LABEL maintainer="tjveil@gmail.com"
 
